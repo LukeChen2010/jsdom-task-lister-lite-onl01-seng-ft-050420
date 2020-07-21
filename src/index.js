@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  newTaskForm.addEventListener("submit", createNewTask);
+  document.getElementById("create-task-form").addEventListener("submit", createNewTask);
 });
